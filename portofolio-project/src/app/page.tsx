@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Button from './components/UI/GenericButton';
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
           <h4 className='navbar-text'>Skills</h4>
           <h4 className='navbar-text'>Projects</h4>
           <h4 className='navbar-text'>Contact</h4>
+          <Button children='Resume' />
         </div>
       </header>
     </div>
