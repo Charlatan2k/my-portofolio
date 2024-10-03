@@ -2,9 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --background: #1e1e1e;
   --foreground: #f0f4f8;
+  --primary-blue: #5dd2c0;
+  --primary-gray: #3a3a3a;
 }
 
 body {
