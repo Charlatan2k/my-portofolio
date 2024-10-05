@@ -3,7 +3,7 @@ import Button from './components/UI/GenericButton';
 
 export default function Home() {
   return (
-    <div className='h-screen flex flex-col'>
+    <div className=' flex flex-col'>
       <header className='border-b-[3px] justify-between flex border-b-[#2A2A2A] h-36 shadow-[0_4px_10px_rgba(0,0,0,0.25)]'>
         <div className='logo-cont'>
           <Image
@@ -33,7 +33,7 @@ export default function Home() {
       </header>
 
       <main className='flex flex-grow flex-col items-center'>
-        <section className='home-section items-center h-full w-full flex-col flex'>
+        <section className='home-section border-2 border-blue-500 items-center h-full w-full flex-col flex'>
           <div className='home-text mt-40 border-2 border-blue-500 flex flex-col items-center'>
             <h6 className='font-sf-mono font-medium mb-12 text-3xl text-[var(--primary-blue)]'>
               Welcome, my name is
@@ -50,9 +50,12 @@ export default function Home() {
               design. Currently, I’m focused on honing my skills and advancing
               my craft.
             </p>
-            <Button>Explore</Button>
+            <Button className='mt-12' size='big'>
+              Explore
+            </Button>
           </div>
         </section>
+        <section className='h-screen border-2 border-green-500 w-full mt-85'></section>
       </main>
     </div>
   );

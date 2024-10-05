@@ -15,6 +15,9 @@ const config: Config = {
       fontFamily: {
         'sf-mono': ['SF Mono', 'monospace', 'sans-serif'],
       },
+      spacing: {
+        85: '20.4375rem',
+      },
     },
   },
   plugins: [],
