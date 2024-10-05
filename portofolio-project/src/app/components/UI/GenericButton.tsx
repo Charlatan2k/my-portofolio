@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 interface ButtonProps {
   children: string;
+  className: string;
 }
 
 const GenericButton = styled.button`
@@ -23,8 +24,8 @@ const GenericButton = styled.button`
   }
 `;
 
-const Button = ({ children }: ButtonProps) => {
-  return <GenericButton>{children}</GenericButton>;
+const Button = ({ children, className }: ButtonProps) => {
+  return <GenericButton className={className}>{children}</GenericButton>;
 };
 
 export default Button;
