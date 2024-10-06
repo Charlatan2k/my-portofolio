@@ -11,7 +11,7 @@ const Loader = () => {
     const timer = setTimeout(() => {
       setFadeOut(true);
       setTimeout(() => setLoading(false), 200);
-    }, 3000);
+    }, 2000);
     return () => clearTimeout(timer);
   }, []);
 

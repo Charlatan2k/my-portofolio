@@ -10,7 +10,6 @@ const StyledSocialList = styled.ul`
   flex-direction: column;
   align-items: center;
   list-style: none;
-  transition: all 0.1s ease-in-out;
 
   &:after {
     content: '';
@@ -18,7 +17,7 @@ const StyledSocialList = styled.ul`
     width: 2px;
     height: 90px;
     margin: 0 auto;
-    background-color: white;
+    background-color: var(--foreground);
   }
 
   li {
@@ -31,6 +30,7 @@ const StyledSocialList = styled.ul`
 
       :hover,
       :focus {
+        transition: all 0.1s ease-in-out;
         transform: translateY(-3px);
       }
 
