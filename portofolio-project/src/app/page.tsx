@@ -1,10 +1,12 @@
 import Image from 'next/image';
 import Button from './components/UI/GenericButton';
+import SideElement from './components/UI/SideElementLine';
 
 export default function Home() {
   return (
     <div className=' flex flex-col'>
       <header className='border-b-[3px] justify-between flex border-b-[#2A2A2A] h-36 shadow-[0_4px_10px_rgba(0,0,0,0.25)]'>
+        <SideElement orientation='left' />
         <div className='logo-cont'>
           <Image
             src={'/spain-flag.png'}
