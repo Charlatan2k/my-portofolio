@@ -7,7 +7,6 @@ interface SideElementProps {
   orientation: 'left' | 'right';
   children: ReactNode;
 }
-
 const StyledSideElementLine = styled.div<SideElementProps>`
   width: 40px;
   position: fixed;
