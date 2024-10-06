@@ -23,12 +23,21 @@ export default function Nav() {
           />
         </div>
         <div className='flex items-center gap-16 text-2xl font-light mr-11'>
-          <a href='/' className='navbar-text cursor-pointer'>
+          <a
+            href='/'
+            className='navbar-text cursor-pointer hover:text-[var(--primary-blue)] transition-all duration-200 ease-in-out'
+          >
             About
           </a>
-          <a className='navbar-text cursor-pointer'>Skills</a>
-          <a className='navbar-text cursor-pointer'>Projects</a>
-          <a className='navbar-text cursor-pointer'>Contact</a>
+          <a className='navbar-text cursor-pointer hover:text-[var(--primary-blue)] transition-all duration-200 ease-in-out'>
+            Skills
+          </a>
+          <a className='navbar-text cursor-pointer hover:text-[var(--primary-blue)] transition-all duration-200 ease-in-out'>
+            Projects
+          </a>
+          <a className='navbar-text cursor-pointer hover:text-[var(--primary-blue)] transition-all duration-200 ease-in-out'>
+            Contact
+          </a>
           <Button>Resume</Button>
         </div>
       </header>
