@@ -36,8 +36,8 @@ export default function Home() {
       </header>
       <Social />
       <main className='flex flex-grow flex-col items-center'>
-        <section className='home-section border-2 border-blue-500 items-center h-full w-full flex-col flex'>
-          <div className='home-text mt-40 border-2 border-blue-500 flex flex-col items-center'>
+        <section className='home-section  items-center h-full w-full flex-col flex'>
+          <div className='home-text mt-40  flex flex-col items-center'>
             <h6 className='font-sf-mono font-medium mb-12 text-3xl text-[var(--primary-blue)]'>
               Welcome, my name is
             </h6>
@@ -59,7 +59,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className='h-screen border-2 border-green-500 w-full mt-85'></section>
+        <section className='h-screen  w-full mt-85'></section>
       </main>
     </div>
   );
