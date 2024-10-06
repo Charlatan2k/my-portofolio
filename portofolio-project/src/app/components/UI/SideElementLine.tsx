@@ -1,9 +1,11 @@
 'use client';
 
 import styled from 'styled-components';
+import { ReactNode } from 'react';
 
 interface SideElementProps {
   orientation: 'left' | 'right';
+  children: ReactNode;
 }
 
 const StyledSideElementLine = styled.div<SideElementProps>`
@@ -15,9 +17,11 @@ const StyledSideElementLine = styled.div<SideElementProps>`
   right: ${(props) => (props.orientation === 'left' ? 'auto' : '40px')};
 `;
 
-const SideElement = ({ orientation }: SideElementProps) => {
+const SideElement = ({ orientation, children }: SideElementProps) => {
   return (
-    <StyledSideElementLine orientation={orientation}></StyledSideElementLine>
+    <StyledSideElementLine orientation={orientation}>
+      {children}
+    </StyledSideElementLine>
   );
 };
 
