@@ -1,12 +1,13 @@
 import Image from 'next/image';
 import Button from './components/UI/GenericButton';
-import SideElement from './components/UI/SideElementLine';
+import Social from './components/UI/socialElement';
+import Loader from './components/UI/Loader';
 
 export default function Home() {
   return (
     <div className=' flex flex-col'>
+      <Loader />
       <header className='border-b-[3px] justify-between flex border-b-[#2A2A2A] h-36 shadow-[0_4px_10px_rgba(0,0,0,0.25)]'>
-        <SideElement orientation='left' />
         <div className='logo-cont'>
           <Image
             src={'/spain-flag.png'}
@@ -33,7 +34,7 @@ export default function Home() {
           <Button>Resume</Button>
         </div>
       </header>
-
+      <Social />
       <main className='flex flex-grow flex-col items-center'>
         <section className='home-section border-2 border-blue-500 items-center h-full w-full flex-col flex'>
           <div className='home-text mt-40 border-2 border-blue-500 flex flex-col items-center'>
@@ -57,6 +58,7 @@ export default function Home() {
             </Button>
           </div>
         </section>
+
         <section className='h-screen border-2 border-green-500 w-full mt-85'></section>
       </main>
     </div>

@@ -1,3 +1,5 @@
+'use client';
+
 import styled from 'styled-components';
 import SideElement from './SideElementLine';
 import { socialMedia } from '@/config';

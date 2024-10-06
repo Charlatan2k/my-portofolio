@@ -9,6 +9,8 @@ const InstagramIcon = () => (
     strokeLinecap='round'
     strokeLinejoin='round'
     className='feather feather-instagram'
+    width='20px'
+    height='20px'
   >
     <title>Instagram</title>
     <rect x='2' y='2' width='20' height='20' rx='5' ry='5'></rect>

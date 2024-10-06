@@ -11,7 +11,6 @@ const StyledSideElementLine = styled.div<SideElementProps>`
   width: 40px;
   position: fixed;
   bottom: 0;
-  border: 2px solid red;
   left: ${(props) => (props.orientation === 'left' ? '40px' : 'auto')};
   right: ${(props) => (props.orientation === 'left' ? 'auto' : '40px')};
 `;
