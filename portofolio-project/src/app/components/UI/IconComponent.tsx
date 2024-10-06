@@ -1,4 +1,5 @@
 import { InstagramIcon, GithubIcon, LinkedinIcon } from '../icons';
+import ExternalIcon from '../icons/external';
 
 interface IconProps {
   name: string;
@@ -13,7 +14,7 @@ const Icon = ({ name }: IconProps) => {
     case 'Github':
       return <GithubIcon />;
     default:
-      return Error;
+      return <ExternalIcon />;
   }
 };
 
