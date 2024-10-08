@@ -6,7 +6,7 @@ export default function About() {
     <div className='flex  mt-[357px] w-full flex-col justify-center items-center'>
       <section
         id='#about'
-        className='border-[5px] flex flex-col items-center rounded-xl border-[var(--primary-gray)] w-[80%] h-[977px] mb-36'
+        className='border-[5px] flex flex-col items-center rounded-xl border-[var(--primary-gray)] w-[80%] h-[977px] pb-36'
       >
         <header className='titles-div justify-center items-center flex gap-6 mt-44'>
           <hr className='border-[2px] border-[var(--primary-gray)] w-36' />
@@ -75,6 +75,7 @@ export default function About() {
           </section>
         </article>
       </section>
+      <div className='border-[3px] border-[var(--primary-gray)] h-24'></div>
     </div>
   );
 }
