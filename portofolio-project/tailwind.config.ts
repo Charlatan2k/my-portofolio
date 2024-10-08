@@ -18,6 +18,11 @@ const config: Config = {
       spacing: {
         85: '20.4375rem',
       },
+
+      clipPath: {
+        circle: 'circle(50%)',
+        '85-percent': 'inset(0 0 15% 0)',
+      },
     },
   },
   plugins: [],

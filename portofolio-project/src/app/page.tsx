@@ -2,6 +2,7 @@
 
 import Nav from './components/Sections/Nav';
 import Head from './components/Sections/Head';
+import About from './components/Sections/About';
 import Social from './components/UI/socialElement';
 import Loader from './components/UI/Loader';
 import Email from './components/UI/EmailElement';
@@ -16,12 +17,13 @@ const StyledContent = styled.div`
 export default function Home() {
   return (
     <>
-      <Loader />
-      <Nav />
-      <Head />
       <StyledContent>
+        <Loader />
+        <Nav />
+        <Head />
         <Social />
         <Email />
+        <About />
       </StyledContent>
     </>
   );

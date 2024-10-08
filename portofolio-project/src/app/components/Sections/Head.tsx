@@ -2,7 +2,7 @@ import Button from '../UI/GenericButton';
 
 export default function Head() {
   return (
-    <div className='flex flex-grow flex-col items-center'>
+    <div className='flex flex-col items-center'>
       <section className='home-section  items-center h-full w-full flex-col flex'>
         <div className='home-text mt-40  flex flex-col items-center'>
           <h6 className='font-sf-mono font-medium mb-12 text-3xl text-[var(--primary-blue)]'>
