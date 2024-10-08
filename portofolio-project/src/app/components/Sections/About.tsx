@@ -28,7 +28,7 @@ export default function About() {
                   <span className='font-bold text-[var(--primary-blue)]'>
                     JavaScript
                   </span>{' '}
-                  while writing scripts for Discord. From there, I dived into
+                  while writing scripts for Discord. From there, I dived into{' '}
                   <span className='font-bold text-[var(--primary-blue)]'>
                     HTML
                   </span>{' '}
