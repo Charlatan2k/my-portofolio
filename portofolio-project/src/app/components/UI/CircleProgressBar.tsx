@@ -10,7 +10,7 @@ const CircularProgressBar = ({ percentage, text }: ProgressBarProps) => {
     <div className='flex flex-col items-center gap-4'>
       <div className='flex items-center justify-center'>
         {/* Outer Circle */}
-        <svg className='w-28 h-28' style={{ transform: 'rotate(-50deg)' }}>
+        <svg className='w-25 h-25' style={{ transform: 'rotate(-50deg)' }}>
           <circle
             cx='50%'
             cy='50%'
@@ -35,7 +35,7 @@ const CircularProgressBar = ({ percentage, text }: ProgressBarProps) => {
         {/* Percentage Text */}
         <span className='absolute text-xl font-bold'>{percentage}%</span>
       </div>
-      <p className='font-bold text-xl'>{text}</p>
+      <p className='font-bold text-lg'>{text}</p>
     </div>
   );
 };

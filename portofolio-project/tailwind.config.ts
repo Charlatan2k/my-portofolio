@@ -17,6 +17,7 @@ const config: Config = {
       },
       spacing: {
         85: '20.4375rem',
+        25: '6.875rem',
       },
 
       clipPath: {

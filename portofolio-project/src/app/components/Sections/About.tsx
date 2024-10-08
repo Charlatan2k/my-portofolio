@@ -3,10 +3,10 @@ import CircularProgressBar from '../UI/CircleProgressBar';
 
 export default function About() {
   return (
-    <div className='flex h-screen mt-[357px] w-full flex-col justify-center items-center'>
+    <div className='flex  mt-[357px] w-full flex-col justify-center items-center'>
       <section
         id='#about'
-        className='border-[5px] flex flex-col items-center rounded-xl border-[var(--primary-gray)] w-[80%] h-[59.8125rem] mb-36'
+        className='border-[5px] flex flex-col items-center rounded-xl border-[var(--primary-gray)] w-[80%] h-[977px] mb-36'
       >
         <header className='titles-div justify-center items-center flex gap-6 mt-44'>
           <hr className='border-[2px] border-[var(--primary-gray)] w-36' />
@@ -68,10 +68,10 @@ export default function About() {
               />
             </figure>
           </div>
-          <section className=' flex items-center justify-between mt-11 h-28'>
-            <CircularProgressBar percentage={85} />
-            <CircularProgressBar percentage={75} />
-            <CircularProgressBar percentage={55} />
+          <section className=' flex items-center justify-between mt-16 h-28'>
+            <CircularProgressBar percentage={85} text='Coding' />
+            <CircularProgressBar percentage={75} text='Fitness' />
+            <CircularProgressBar percentage={55} text='Photography' />
           </section>
         </article>
       </section>
