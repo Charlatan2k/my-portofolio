@@ -42,9 +42,10 @@ const GenericButton = styled.button.attrs((props) => ({
   transition: all 0.12s ease-in-out;
 
   &:hover {
-    background-color: var(--primary-blue);
-    color: var(--primary-gray);
+    background-color: var(--primary-gray);
+    color: var(--primary-blue);
     font-weight: bold;
+    border: 2px solid var(--primary-blue);
   }
 `;
 

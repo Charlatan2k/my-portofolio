@@ -19,7 +19,6 @@ export default function Home() {
       <Loader />
       <Nav />
       <Head />
-
       <StyledContent>
         <Social />
         <Email />
