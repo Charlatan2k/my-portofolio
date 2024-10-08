@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import CircularProgressBar from '../UI/CircleProgressBar';
 
 export default function About() {
   return (
@@ -67,7 +68,11 @@ export default function About() {
               />
             </figure>
           </div>
-          <section className=' flex items-center justify-between mt-11 h-28'></section>
+          <section className=' flex items-center justify-between mt-11 h-28'>
+            <CircularProgressBar percentage={85} />
+            <CircularProgressBar percentage={75} />
+            <CircularProgressBar percentage={55} />
+          </section>
         </article>
       </section>
     </div>
