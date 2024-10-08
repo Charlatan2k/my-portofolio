@@ -1,6 +1,4 @@
 import Button from '../UI/GenericButton';
-import Social from '../UI/socialElement';
-import Email from '../UI/EmailElement';
 
 export default function Head() {
   return (
@@ -27,7 +25,6 @@ export default function Head() {
           </Button>
         </div>
       </section>
-      <section className='h-screen  w-full mt-85'></section>
     </div>
   );
 }
