@@ -31,7 +31,7 @@ export default function Skills() {
                 Back
               </h1>
             </div>
-            <div className=' w-[80%] h-auto flex gap-6 flex-wrap items-center justify-center mt-6'>
+            <div className=' w-[80%] h-auto flex gap-6 flex-wrap items-center justify-center mt-8'>
               <Skill name='Node' />
               <Skill name='Express' />
               <Skill name='MySQL' />
@@ -56,7 +56,7 @@ export default function Skills() {
                 Front
               </h1>
             </div>
-            <div className=' w-[94%] h-auto flex gap-6 flex-wrap items-center justify-center mt-6'>
+            <div className=' w-[94%] h-auto flex gap-6 flex-wrap items-center justify-center mt-8'>
               <Skill name='HTML' />
               <Skill name='CSS' />
               <Skill name='JavaScript' />
@@ -83,7 +83,7 @@ export default function Skills() {
                 Tools
               </h1>
             </div>
-            <div className=' w-[100%] h-auto flex gap-6 flex-wrap items-center justify-center mt-6'>
+            <div className=' w-[100%] h-auto flex gap-6 flex-wrap items-center justify-center mt-8'>
               <Skill name='GIT' />
               <Skill name='Figma' />
               <Skill name='Docker' />
