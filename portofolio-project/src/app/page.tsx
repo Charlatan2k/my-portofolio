@@ -3,6 +3,7 @@
 import Nav from './components/Sections/Nav';
 import Head from './components/Sections/Head';
 import About from './components/Sections/About';
+import Skills from './components/Sections/Skills';
 import Social from './components/UI/socialElement';
 import Loader from './components/UI/Loader';
 import Email from './components/UI/EmailElement';
@@ -24,6 +25,7 @@ export default function Home() {
         <Social />
         <Email />
         <About />
+        <Skills />
       </StyledContent>
     </>
   );

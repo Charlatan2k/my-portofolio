@@ -3,7 +3,7 @@ import CircularProgressBar from '../UI/CircleProgressBar';
 
 export default function About() {
   return (
-    <div className='flex mt-[357px] w-full flex-col justify-center items-center'>
+    <div className='flex  mt-[357px] w-full flex-col justify-center items-center'>
       <section
         id='#about'
         className='border-[5px] flex flex-col items-center rounded-xl border-[var(--primary-gray)] w-[80%] h-[977px] pb-36'
@@ -75,7 +75,7 @@ export default function About() {
           </section>
         </article>
       </section>
-      <div className='border-[3px] border-[var(--primary-gray)] h-24'></div>
+      <div className='border-[3px]  border-[var(--primary-gray)] h-40'></div>
     </div>
   );
 }

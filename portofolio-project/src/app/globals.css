@@ -39,3 +39,8 @@ span {
     text-wrap: balance;
   }
 }
+
+/* Custom background class */
+.bg-icons-background {
+  background-image: url('/iconsBigBG.png');
+}
