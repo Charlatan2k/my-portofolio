@@ -97,7 +97,7 @@ export default function Skills() {
           </div>
         </div>
       </div>
-      <div className='border-[3px] border-[var(--primary-gray)] h-24'></div>
+      <div className='border-[3px] border-[var(--primary-gray)] h-48'></div>
     </section>
   );
 }

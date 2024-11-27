@@ -44,3 +44,11 @@ span {
 .bg-icons-background {
   background-image: url('/iconsBigBG.png');
 }
+
+.bg-project1 {
+  background-image: url('/Bugatti-project.png');
+}
+
+.project-hirun {
+  background-image: url('/hirun-thumbnail.jpg');
+}

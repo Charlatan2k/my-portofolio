@@ -75,7 +75,7 @@ export default function About() {
           </section>
         </article>
       </section>
-      <div className='border-[3px]  border-[var(--primary-gray)] h-40'></div>
+      <div className='border-[3px] border-[var(--primary-gray)] h-40'></div>
     </div>
   );
 }

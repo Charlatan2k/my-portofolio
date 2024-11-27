@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Button from '../UI/GenericButton';
-import Loader from '../UI/Loader';
 
 export default function Nav() {
   return (
