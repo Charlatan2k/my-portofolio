@@ -52,3 +52,11 @@ span {
 .project-hirun {
   background-image: url('/hirun-thumbnail.jpg');
 }
+
+.project-hirun-modal {
+  background-image: url('/cut-hirun-thumbnail.png');
+}
+
+.project-bugatti-modal {
+  background-image: url('/bugatti-project.png');
+}

@@ -37,7 +37,7 @@ export default function Nav() {
           <a className='navbar-text cursor-pointer hover:text-[var(--primary-blue)] transition-all duration-200 ease-in-out'>
             Contact
           </a>
-          <Button>Resume</Button>
+          <Button className='font-normal'>Resume</Button>
         </div>
       </header>
     </>
