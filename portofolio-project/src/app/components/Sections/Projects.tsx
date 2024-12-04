@@ -2,10 +2,11 @@ import { useState } from 'react';
 import Skill from '../UI/Skill';
 
 export default function Projects() {
-  const [openModal, setOpenModal] = useState(null);
+  const [openModal, setOpenModal] = useState<string | null>(null);
 
-  const handleOpenModal = (project) => setOpenModal(project);
+  const handleOpenModal = (project: string) => setOpenModal(project);
   const handleCloseModal = () => setOpenModal(null);
+
   return (
     <section className='flex flex-col items-center'>
       <div className='border-[3px] w-0 border-[var(--primary-gray)] h-32'></div>
@@ -22,21 +23,21 @@ export default function Projects() {
           <div className='projects w-full  h-full flex gap-20 justify-center items-center'>
             <div className='projects-h h-[80%] w-[40%]  flex flex-col items-center justify-center gap-32 ml-20'>
               <div
-                className='project-bugatti hover:bg-transparent transition-all bg-[var(--primary-blue)] rounded-xl w-full h-[40%]'
+                className=' project-bugatti cursor-pointer hover:bg-transparent  transition-all bg-[var(--primary-blue)] rounded-xl w-full h-[40%] '
                 onClick={() => handleOpenModal('bugatti')}
               >
                 <div
-                  className='bg-project1  cursor-pointer w-full h-full rounded-xl bg-contain bg-center bg-no-repeat opacity-50 '
+                  className='bg-project1 w-full h-full rounded-xl bg-contain bg-center bg-no-repeat opacity-50 '
                   style={{ backgroundSize: '100% 100%' }}
                 ></div>
               </div>
-              <div className='incoming-project  cursor-pointer bg-[#9ebbb7] rounded-xl w-full h-[40%] flex items-center justify-center'>
+              <div className='incoming-project cursor-pointer bg-[#9ebbb7] rounded-xl w-full h-[40%] flex items-center justify-center'>
                 <h1 className='text-[var(--background)] text-3xl font-extrabold font-sf-mono'>
                   Incoming Project
                 </h1>
               </div>
             </div>
-            <div className='project-v cursor-pointer  flex justify-center items-center h-full w-[38%] mr-20'>
+            <div className='project-v cursor-pointer flex justify-center items-center h-full w-[38%] mr-20'>
               <div
                 onClick={() => handleOpenModal('hirun')}
                 className='projects-mobile hover:bg-transparent transition-all rounded-xl bg-[var(--primary-blue)] w-full h-[80%] '
