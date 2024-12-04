@@ -42,10 +42,12 @@ export default function About() {
                   Outside of web development, I’m a huge tech enthusiast. I’ve
                   been
                   <span className='font-bold text-[var(--primary-blue)]'>
+                    {' '}
                     building custom PCs
                   </span>{' '}
                   since I was 13, and I also love
                   <span className='font-bold text-[var(--primary-blue)]'>
+                    {' '}
                     video games
                   </span>{' '}
                   and{' '}

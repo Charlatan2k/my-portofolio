@@ -50,7 +50,7 @@ export default function Projects() {
             </div>
           </div>
         </section>
-        <div className='border-[3px] w-0 border-[var(--primary-gray)] h-48'></div>
+        <div className='border-[3px] w-0 border-[var(--primary-gray)] h-72'></div>
       </article>
 
       {/* Modals */}

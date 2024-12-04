@@ -6,6 +6,7 @@ interface ButtonProps {
   children: string;
   className?: string;
   size?: 'big';
+  onClick?: () => string;
 }
 
 const GenericButton = styled.button.attrs((props) => ({
@@ -49,9 +50,9 @@ const GenericButton = styled.button.attrs((props) => ({
   }
 `;
 
-const Button = ({ children, className, size }: ButtonProps) => {
+const Button = ({ children, className, size, onClick }: ButtonProps) => {
   return (
-    <GenericButton className={className} size={size}>
+    <GenericButton onClick={onClick} className={className} size={size}>
       {children}
     </GenericButton>
   );
