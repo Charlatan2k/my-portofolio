@@ -11,7 +11,9 @@ export default function Nav() {
       <header className='border-b-[3px] justify-between flex border-b-[#2A2A2A] h-36 shadow-[0_4px_10px_rgba(0,0,0,0.25)]'>
         <div className='logo-cont'>
           <Image
-            src={'/spain-flag.png'}
+            src={
+              i18n.language === 'en' ? '/spain-flag.png' : '/english-flag.png'
+            } // Toggle flags based on language
             width={25}
             height={25}
             alt='Spanish Flag Icon'

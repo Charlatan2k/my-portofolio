@@ -44,6 +44,10 @@ const resources = {
       hirun_description:
         'HiRun is a web application for mobile devices, designed for professionals looking to offer their services to clients, and where users can hire those services, publish your own, or even discover new opportunities to collaborate and Expand your network of contacts.',
       projectsButton: 'Visit',
+      contactTitle: 'Contact Me',
+      contactText:
+        "I'm always on the lookout for exciting new challenges, and my inbox is open! Whether you have a question or just want to connect, I'll do my best to respond as soon as I can.",
+      contactButton: 'Contact',
     },
   },
   es: {
@@ -85,6 +89,10 @@ const resources = {
       hirun_description:
         'HiRun es una aplicación web para dispositivos móviles, diseñada para profesionales que buscan ofrecer sus servicios a clientes, donde los usuarios pueden contratar esos servicios, publicar los suyos propios o incluso descubrir nuevas oportunidades para colaborar y expandir su red de contactos.',
       projectsButton: 'Visitar',
+      contactTitle: 'Contáctame',
+      contactText:
+        'Siempre estoy en busca de nuevos y emocionantes desafíos, ¡y mi bandeja de entrada está abierta! Ya sea que tengas una pregunta o solo quieras conectar, haré todo lo posible por responder lo antes posible.',
+      contactButton: 'Contactar',
     },
   },
 };
