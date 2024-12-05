@@ -60,3 +60,37 @@ span {
 .project-bugatti-modal {
   background-image: url('/bugatti-project.png');
 }
+
+/* Keyframe animation for fade-out */
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Keyframe animation for fade-in */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Smooth fade effect for text transitions */
+.fade-in {
+  animation: fadeIn 0.5s forwards;
+}
+
+/* Apply fade-out when language is changing */
+.fade-out {
+  animation: fadeOut 0.5s forwards;
+}
+
+.navbar-text {
+  transition: opacity 0.5s ease-in-out;
+}

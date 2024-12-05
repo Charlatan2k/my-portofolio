@@ -1,5 +1,10 @@
+// src/app/page.tsx
+
 'use client';
 
+import { useEffect } from 'react';
+import { I18nextProvider } from 'react-i18next';
+import i18n from '../i18n'; // Make sure the path is correct
 import Nav from './components/Sections/Nav';
 import Head from './components/Sections/Head';
 import About from './components/Sections/About';
@@ -18,8 +23,13 @@ const StyledContent = styled.div`
 `;
 
 export default function Home() {
+  useEffect(() => {
+    // Ensures i18n is properly initialized
+    i18n.init();
+  }, []);
+
   return (
-    <>
+    <I18nextProvider i18n={i18n}>
       <StyledContent>
         <Loader />
         <Nav />
@@ -31,6 +41,6 @@ export default function Home() {
         <Projects />
         <Contact />
       </StyledContent>
-    </>
+    </I18nextProvider>
   );
 }

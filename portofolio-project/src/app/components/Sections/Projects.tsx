@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import Skill from '../UI/Skill';
+import { useTranslation } from 'react-i18next';
 
 export default function Projects() {
+  const { t } = useTranslation();
   const [openModal, setOpenModal] = useState<string | null>(null);
 
   const handleOpenModal = (project: string) => setOpenModal(project);
@@ -14,11 +16,9 @@ export default function Projects() {
         <section className='w-[70%] h-full flex flex-col border-[5px] border-[var(--primary-gray)] rounded-xl justify-center items-center'>
           <div className='title-container flex flex-col justify-center items-center mt-10'>
             <h1 className='text-6xl font-extrabold border-b-2 w-[550px] border-[var(--primary-gray)] text-center'>
-              Showcase
+              {t('projectsTitle')}
             </h1>
-            <p className='text-xl mt-2'>
-              Click each project to see more info about it
-            </p>
+            <p className='text-xl mt-2'>{t('projects_subtitle')}</p>
           </div>
           <div className='projects w-full  h-full flex gap-20 justify-center items-center'>
             <div className='projects-h h-[80%] w-[40%]  flex flex-col items-center justify-center gap-32 ml-20'>
@@ -72,11 +72,7 @@ export default function Projects() {
                   Bugatti
                 </h1>
                 <p className='w-96 border-b-2 pb-4 border-[var(--primary-gray)]'>
-                  The Bugatti Chiron Super Sport 57 One of One showcase
-                  highlights the car’s unique design and powerful W16 engine.
-                  This exclusive website dives into its custom features,
-                  exceptional performance, and luxury, offering a closer look at
-                  what makes this Bugatti truly one of a kind.
+                  {t('bugatti_description')}
                 </p>
                 <div className='stack flex w-[28rem] gap-4 pt-4 pb-4 flex-wrap border-b-2 border-[var(--primary-gray)]'>
                   <Skill name='React' />
@@ -92,7 +88,7 @@ export default function Projects() {
                   className='flex self-center'
                 >
                   <button className='mt-4 px-14 py-2 text-xl font-sf-mono bg-transparent border-2 border-[var(--primary-blue)] self-center text-white rounded hover:bg-[var(--primary-gray)] hover:transition-all'>
-                    Visit
+                    {t('projectsButton')}
                   </button>
                 </a>
               </div>
@@ -115,11 +111,7 @@ export default function Projects() {
                   Hirun
                 </h1>
                 <p className='w-96 border-b-2 pb-4 border-[var(--primary-gray)]'>
-                  HiRun is a web application for mobile devices, designed for
-                  professionals looking to offer their services to clients, and
-                  where users can hire those services, publish your own, or even
-                  discover new opportunities to collaborate and Expand your
-                  network of contacts.
+                  {t('hirun_description')}
                 </p>
                 <div className='stack flex w-[28rem] gap-4 pt-4 pb-4 flex-wrap border-b-2 border-[var(--primary-gray)]'>
                   <Skill name='Angular' />
@@ -138,7 +130,7 @@ export default function Projects() {
                   className='flex self-center'
                 >
                   <button className='mt-4 px-14 py-2 text-xl font-sf-mono bg-transparent border-2 border-[var(--primary-blue)] self-center text-white rounded hover:bg-[var(--primary-gray)] hover:transition-all'>
-                    Visit
+                    {t('projectsButton')}
                   </button>
                 </a>
               </div>

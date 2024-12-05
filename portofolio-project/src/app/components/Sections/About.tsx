@@ -1,7 +1,10 @@
 import Image from 'next/image';
 import CircularProgressBar from '../UI/CircleProgressBar';
+import { useTranslation } from 'react-i18next';
 
 export default function About() {
+  const { t } = useTranslation();
+
   return (
     <div className='flex  mt-[357px] w-full flex-col justify-center items-center'>
       <section
@@ -10,52 +13,46 @@ export default function About() {
       >
         <header className='titles-div justify-center items-center flex gap-6 mt-44'>
           <hr className='border-[2px] border-[var(--primary-gray)] w-36' />
-          <h1 className='font-bold text-5xl'>Behind the screen</h1>
+          <h1 className='font-bold text-5xl'>{t('about_title')}</h1>
           <hr className='border-[2px] border-[var(--primary-gray)] w-[804px]' />
         </header>
 
         <article className='content-container flex flex-col mt-24'>
-          <h2 className='text-3xl font-medium '>
-            The Story Behind the Developer
-          </h2>
+          <h2 className='text-3xl font-medium '>{t('about_second_title')}</h2>
           <div className='content-duo gap-52 flex'>
             <section className='text-container flex flex-col items-center  w-[631px] relative'>
               <article className='flex flex-col p-8 border-l-4 border-t-4 border-[var(--primary-blue)] rounded-md'>
                 <p className='font-light text-xl'>
-                  Hello! My name is Octavian, and I’ve always been passionate
-                  about creating and exploring on the internet. My web
-                  development journey began when I first discovered{' '}
+                  {t('description1')}{' '}
                   <span className='font-bold text-[var(--primary-blue)]'>
                     JavaScript
                   </span>{' '}
-                  while writing scripts for Discord. From there, I dived into{' '}
+                  {t('description2')}{' '}
                   <span className='font-bold text-[var(--primary-blue)]'>
                     HTML
                   </span>{' '}
-                  and{' '}
+                  {t('description3')}{' '}
                   <span className='font-bold text-[var(--primary-blue)]'>
                     CSS
                   </span>
-                  , and my love for coding grew quickly.
+                  {t('description4')}
                   <br />
                   <br />
-                  Outside of web development, I’m a huge tech enthusiast. I’ve
-                  been
+                  {t('description5')}
                   <span className='font-bold text-[var(--primary-blue)]'>
                     {' '}
-                    building custom PCs
+                    {t('description6')}
                   </span>{' '}
-                  since I was 13, and I also love
+                  {t('description7')}
                   <span className='font-bold text-[var(--primary-blue)]'>
                     {' '}
-                    video games
+                    {t('description8')}
                   </span>{' '}
-                  and{' '}
+                  {t('description9')}{' '}
                   <span className='font-bold text-[var(--primary-blue)]'>
-                    photography
+                    {t('description10')}
                   </span>
-                  . Right now, my main focus is improving myself—getting 1%
-                  better every day.
+                  {t('description11')}
                 </p>
               </article>
             </section>
@@ -71,9 +68,9 @@ export default function About() {
             </figure>
           </div>
           <section className=' flex items-center justify-between mt-12 h-24 w-full '>
-            <CircularProgressBar percentage={85} text='Coding' />
+            <CircularProgressBar percentage={85} text={t('progressCircle1')} />
             <CircularProgressBar percentage={75} text='Fitness' />
-            <CircularProgressBar percentage={55} text='Photography' />
+            <CircularProgressBar percentage={55} text={t('progressCircle3')} />
           </section>
         </article>
       </section>

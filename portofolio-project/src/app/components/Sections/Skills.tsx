@@ -1,7 +1,10 @@
 import Skill from '../UI/Skill';
 import { Icon } from '@iconify/react';
+import { useTranslation } from 'react-i18next';
 
 export default function Skills() {
+  const { t } = useTranslation();
+
   return (
     <section className='skillsSection bg-icons-background bg-no-repeat bg-contain bg-center w-full h-[100vh] flex flex-col justify-start items-center'>
       <div className='border-[3px] pb-40 border-[var(--primary-gray)]'></div>
@@ -10,7 +13,7 @@ export default function Skills() {
         id='skills-title-box'
         className='border-[5px] border-[var(--primary-gray)] rounded-xl h-28 w-72 flex justify-center items-center'
       >
-        <h1 className='font-bold text-2xl'>Tech Arsenal</h1>
+        <h1 className='font-bold text-3xl'>{t('skillsTitle')}</h1>
       </div>
 
       <div className='border-[3px] border-[var(--primary-gray)] h-24'></div>
@@ -23,11 +26,11 @@ export default function Skills() {
             <div className='flex flex-col justify-center items-center'>
               <Icon
                 className='border-2 border-[var(--primary-gray)] rounded-lg bg-[var(--primary-gray)] text-[var(--primary-blue)] p-2'
-                width={70}
-                height={70}
+                width={80}
+                height={80}
                 icon='material-symbols:database'
               />
-              <h1 className='font-mono text-2xl tracking-[4px] text-center my-2 border-b-2 h-10 w-36 border-[var(--primary-blue)]'>
+              <h1 className='font-mono text-2xl tracking-[4px] text-center my-3 border-b-2 h-10 w-36 border-[var(--primary-blue)]'>
                 Back
               </h1>
             </div>
@@ -48,11 +51,11 @@ export default function Skills() {
             <div className='flex flex-col justify-center items-center'>
               <Icon
                 className='border-2 border-[var(--primary-gray)] rounded-lg bg-[var(--primary-gray)] text-[var(--primary-blue)] p-3'
-                width={70}
-                height={70}
+                width={80}
+                height={80}
                 icon='bi:front'
               />
-              <h1 className='font-mono text-2xl tracking-[4px] text-center my-2 border-b-2 h-10 w-36 border-[var(--primary-blue)]'>
+              <h1 className='font-mono text-2xl tracking-[4px] text-center my-3 border-b-2 h-10 w-36 border-[var(--primary-blue)]'>
                 Front
               </h1>
             </div>
@@ -76,11 +79,11 @@ export default function Skills() {
               <Icon
                 className='border-2 border-[var(--primary-gray)] rounded-lg bg-[var(--primary-gray)] text-[var(--primary-blue)] p-2'
                 width={70}
-                height={70}
+                height={80}
                 icon='clarity:tools-solid'
               />
-              <h1 className='font-mono text-2xl tracking-[4px] text-center my-2 border-b-2 h-10 w-36 border-[var(--primary-blue)]'>
-                Tools
+              <h1 className='font-mono text-2xl tracking-[4px] text-center my-3 border-b-2 h-10 w-36 border-[var(--primary-blue)]'>
+                {t('tools')}
               </h1>
             </div>
             <div className=' w-[100%] h-auto flex gap-6 flex-wrap items-center justify-center mt-8'>
