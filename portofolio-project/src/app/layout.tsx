@@ -39,6 +39,10 @@ export default function RootLayout({
         <link rel='preconnect' href='//fdn.fontcdn.ir' />
         <link rel='preconnect' href='//v1.fontapi.ir' />
         <link href='https://v1.fontapi.ir/css/SFMono' rel='stylesheet' />
+        <meta
+          name='viewport'
+          content='width=device-width, initial-scale=1.0'
+        ></meta>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

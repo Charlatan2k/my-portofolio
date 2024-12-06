@@ -8,6 +8,11 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  overflow-x: hidden !important;
+}
+
 :root {
   --background: #1e1e1e;
   --foreground: #f0f4f8;
