@@ -14,6 +14,7 @@ const config: Config = {
       },
       fontFamily: {
         'sf-mono': ['SF Mono', 'monospace', 'sans-serif'],
+        montserrat: ['Montserrat'],
       },
       spacing: {
         85: '20.4375rem',

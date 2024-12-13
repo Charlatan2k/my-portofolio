@@ -38,8 +38,9 @@ const GenericButton = styled.button.attrs((props) => ({
     }
     return props.size === 'big' ? '25px' : '20px';
   }};
-  font-family: 'SF Mono', 'Courier New', 'Consolas', 'Lucida Console', monospace;
+  font-family: 'Montserrat', 'SF Mono', 'Consolas', 'Lucida Console', monospace;
   text-align: center;
+  letter-spacing: 3px;
   transition: all 0.12s ease-in-out;
 
   &:hover {

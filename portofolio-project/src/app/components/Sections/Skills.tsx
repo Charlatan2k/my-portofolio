@@ -30,7 +30,7 @@ export default function Skills() {
                 height={80}
                 icon='material-symbols:database'
               />
-              <h1 className='font-mono text-2xl tracking-[4px] text-center my-3 border-b-2 h-10 w-36 border-[var(--primary-blue)]'>
+              <h1 className=' font-montserrat text-2xl tracking-[4px] text-center my-3 border-b-2 h-10 w-36 border-[var(--primary-blue)]'>
                 Back
               </h1>
             </div>
@@ -55,7 +55,7 @@ export default function Skills() {
                 height={80}
                 icon='bi:front'
               />
-              <h1 className='font-mono text-2xl tracking-[4px] text-center my-3 border-b-2 h-10 w-36 border-[var(--primary-blue)]'>
+              <h1 className=' font-montserrat text-2xl tracking-[4px] text-center my-3 border-b-2 h-10 w-36 border-[var(--primary-blue)]'>
                 Front
               </h1>
             </div>
@@ -82,7 +82,7 @@ export default function Skills() {
                 height={80}
                 icon='clarity:tools-solid'
               />
-              <h1 className='font-mono text-2xl tracking-[4px] text-center my-3 border-b-2 h-10 w-36 border-[var(--primary-blue)]'>
+              <h1 className=' font-montserrat text-2xl tracking-[4px] text-center my-3 border-b-2 h-10 w-36 border-[var(--primary-blue)]'>
                 {t('tools')}
               </h1>
             </div>

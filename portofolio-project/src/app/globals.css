@@ -18,7 +18,13 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: 'Inter', 'Roboto', 'Noto Sans', Helvetica, sans-serif;
+  font-family: 'Inter', 'Montserrat', 'Noto Sans', Helvetica, sans-serif;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; /* For macOS */
+  font-smooth: always; /* Standard property, but not widely supported */
 }
 
 body,
