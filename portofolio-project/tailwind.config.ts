@@ -24,6 +24,10 @@ const config: Config = {
         circle: 'circle(50%)',
         '85-percent': 'inset(0 0 15% 0)',
       },
+      screens: {
+        '3xl': '1630px',
+        '4xl': '2560px',
+      },
     },
   },
   plugins: [],
