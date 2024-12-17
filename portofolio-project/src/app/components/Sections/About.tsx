@@ -6,7 +6,10 @@ export default function About() {
   const { t } = useTranslation();
 
   return (
-    <div className='flex  mt-[357px] w-full flex-col justify-center items-center'>
+    <div
+      id='about'
+      className='flex  mt-[357px] w-full flex-col justify-center items-center'
+    >
       <section
         id='#about'
         className='border-[5px] flex flex-col items-center rounded-xl border-[var(--primary-gray)] w-[80%] h-[977px] pb-36'

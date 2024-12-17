@@ -1,3 +1,4 @@
+import { Link } from 'react-scroll';
 import Button from '../UI/GenericButton';
 import { useTranslation } from 'react-i18next';
 
@@ -5,7 +6,7 @@ export default function Head() {
   const { t } = useTranslation();
 
   return (
-    <div className='flex flex-col items-center'>
+    <div className=' flex flex-col items-center'>
       <section className='home-section  items-center h-full w-full flex-col flex'>
         <div className='home-text mt-40  flex flex-col items-center'>
           <h6 className='font-sf-mono font-medium mb-12 text-3xl text-[var(--primary-blue)]'>
@@ -18,9 +19,11 @@ export default function Head() {
           <p className='text-xl font-bold opacity-75 w-[863px] text-center mt-7'>
             {t('bio')}
           </p>
-          <Button className='mt-12' size='big'>
-            {t('explore_btn')}
-          </Button>
+          <Link to='about' smooth={true} duration={500}>
+            <Button className='mt-12' size='big'>
+              {t('explore_btn')}
+            </Button>
+          </Link>
         </div>
       </section>
     </div>

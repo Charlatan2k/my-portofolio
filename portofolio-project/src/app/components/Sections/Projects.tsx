@@ -10,7 +10,7 @@ export default function Projects() {
   const handleCloseModal = () => setOpenModal(null);
 
   return (
-    <section className='flex flex-col items-center'>
+    <section id='projects' className='flex flex-col items-center'>
       <div className='border-[3px] w-0 border-[var(--primary-gray)] h-32'></div>
       <article className='flex flex-col w-full h-[105vh] items-center'>
         <section className='w-[70%] h-full flex flex-col border-[5px] border-[var(--primary-gray)] rounded-xl justify-center items-center'>
