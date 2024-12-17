@@ -62,7 +62,7 @@ export default function About() {
             <figure className='image-container relative inline-block z-0'>
               <div className='absolute top-[-18px] left-6 w-full h-full border-[5px] border-[var(--primary-blue)] rounded-lg z-[-1]'></div>
               <Image
-                src={'/beach_foto.jpg'}
+                src={'beach_foto.jpg'}
                 width={400}
                 height={400}
                 alt='About me Photo'

@@ -48,23 +48,23 @@ span {
 
 /* Custom background class */
 .bg-icons-background {
-  background-image: url('/iconsBigBG.png');
+  background-image: url('iconsBigBG.png');
 }
 
 .bg-project1 {
-  background-image: url('/Bugatti-project.png');
+  background-image: url('Bugatti-project.png');
 }
 
 .project-hirun {
-  background-image: url('/hirun-thumbnail.jpg');
+  background-image: url('hirun-thumbnail.jpg');
 }
 
 .project-hirun-modal {
-  background-image: url('/cut-hirun-thumbnail.png');
+  background-image: url('cut-hirun-thumbnail.png');
 }
 
 .project-bugatti-modal {
-  background-image: url('/bugatti-project.png');
+  background-image: url('bugatti-project.png');
 }
 
 /* Keyframe animation for fade-out */

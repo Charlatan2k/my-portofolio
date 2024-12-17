@@ -16,9 +16,7 @@ export default function Nav() {
       >
         <div className='logo-cont'>
           <Image
-            src={
-              i18n.language === 'en' ? '/spain-flag.png' : '/english-flag.png'
-            } // Toggle flags based on language
+            src={i18n.language === 'en' ? 'spain-flag.png' : 'english-flag.png'} // Toggle flags based on language
             width={25}
             height={25}
             alt='Spanish Flag Icon'
@@ -29,7 +27,7 @@ export default function Nav() {
           />
           <Image
             className='ml-[2.3125rem] cursor-pointer'
-            src={'/octavian-logo.png'}
+            src={'octavian-logo.png'}
             alt='Logo'
             width={98}
             height={81}
