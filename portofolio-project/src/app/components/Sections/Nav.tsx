@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Button from '../UI/GenericButton';
 import { useTranslation } from 'react-i18next';
 import i18n from '@/i18n';
+import React from 'react';
 
 export default function Nav() {
   const { t } = useTranslation();
