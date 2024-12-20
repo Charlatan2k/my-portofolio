@@ -37,7 +37,7 @@ export default function Skills() {
                 Back
               </h1>
             </div>
-            <div className=' w-[80%] h-auto flex gap-6 flex-wrap items-center justify-center mt-8'>
+            <div className=' w-[85%] 3xl:w-[80%] h-auto flex gap-6 flex-wrap items-center justify-center mt-8'>
               <Skill name='Node' />
               <Skill name='Express' />
               <Skill name='MySQL' />
@@ -89,7 +89,7 @@ export default function Skills() {
                 {t('tools')}
               </h1>
             </div>
-            <div className=' w-[100%] h-auto flex gap-6 flex-wrap items-center justify-center mt-8'>
+            <div className=' w-[99%] 3xl:w-[90%] h-auto flex gap-6 flex-wrap items-center justify-center mt-8'>
               <Skill name='GIT' />
               <Skill name='Figma' />
               <Skill name='Docker' />
