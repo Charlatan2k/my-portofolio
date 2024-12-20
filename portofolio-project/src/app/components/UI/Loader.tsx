@@ -22,7 +22,7 @@ const Loader = () => {
           fadeOut ? 'opacity-0' : 'opacity-100'
         }`}
       >
-        <Image src={'/loader.gif'} alt='Loading...' width={150} height={150} />
+        <Image src={'loader.gif'} alt='Loading...' width={150} height={150} />
       </div>
     );
   }

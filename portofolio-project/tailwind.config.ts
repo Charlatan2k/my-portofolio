@@ -20,7 +20,9 @@ const config: Config = {
         85: '20.4375rem',
         25: '6.875rem',
       },
-
+      screens: {
+        '3xl': '1921px',
+      },
       clipPath: {
         circle: 'circle(50%)',
         '85-percent': 'inset(0 0 15% 0)',

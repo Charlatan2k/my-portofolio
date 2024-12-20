@@ -6,7 +6,7 @@ export default function Head() {
   const { t } = useTranslation();
 
   return (
-    <div className=' flex flex-col items-center'>
+    <div className=' flex mt-32 3xl:mt-64 flex-col items-center'>
       <section className='home-section  items-center h-full w-full flex-col flex'>
         <div className='home-text mt-40  flex flex-col items-center'>
           <h6 className='font-sf-mono font-medium mb-12 text-3xl text-[var(--primary-blue)]'>
