@@ -27,7 +27,7 @@ export default function Projects() {
                 onClick={() => handleOpenModal('bugatti')}
               >
                 <div
-                  className='bg-project1 w-full h-full rounded-xl bg-contain bg-center bg-no-repeat opacity-50 '
+                  className='bg-bugatti-project  w-full h-full rounded-xl bg-contain bg-center bg-no-repeat opacity-50 '
                   style={{ backgroundSize: '100% 100%' }}
                 ></div>
               </div>
@@ -42,10 +42,7 @@ export default function Projects() {
                 onClick={() => handleOpenModal('hirun')}
                 className='projects-mobile hover:bg-transparent transition-all rounded-xl bg-[var(--primary-blue)] w-full h-[80%] '
               >
-                <div
-                  className='project-hirun w-full h-full rounded-xl bg-contain bg-center bg-no-repeat opacity-50'
-                  style={{ backgroundSize: '100% 100%' }}
-                ></div>
+                <div className='bg-bugatti-project w-full h-full rounded-xl bg-contain bg-center bg-no-repeat opacity-50'></div>
               </div>
             </div>
           </div>
@@ -64,7 +61,7 @@ export default function Projects() {
           <div className='bg-[var(--background)] p-6 rounded-xl shadow-lg h-[70%] w-[70%]'>
             <div className=' container w-full h-full flex items-center justify-center gap-40 border-[5px] rounded-lg border-[var(--primary-gray)]'>
               <div
-                className='thumbnail project-bugatti-modal ml-10 border-[5px] border-[var(--primary-gray)] w-[50%] h-[45%] bg-cover bg-center bg-no-repeat'
+                className='thumbnail bg-bugatti-project ml-10 border-[5px] border-[var(--primary-gray)] w-[50%] h-[45%] bg-cover bg-center bg-no-repeat'
                 style={{ backgroundSize: '100% 100%' }}
               ></div>
               <div className='content mr-10 flex flex-col '>
@@ -105,7 +102,7 @@ export default function Projects() {
         >
           <div className='bg-[var(--background)] p-6 rounded-xl shadow-lg h-[70%] w-[70%]'>
             <div className=' container w-full h-full flex items-center justify-center gap-40 border-[5px] rounded-lg border-[var(--primary-gray)]'>
-              <div className='thumbnail project-hirun-modal ml-10 border-2 w-[50%] h-[65%] bg-cover bg-center bg-no-repeat'></div>
+              <div className='thumbnail bg-bugatti-project ml-10 border-2 w-[50%] h-[65%] bg-cover bg-center bg-no-repeat'></div>
               <div className='content mr-10 flex flex-col '>
                 <h1 className='text-7xl font-bold mb-4 border-b-2 border-[var(--primary-gray)]'>
                   Hirun

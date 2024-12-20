@@ -8,7 +8,7 @@ export default function Skills() {
   return (
     <section
       id='skills'
-      className='skillsSection bg-icons-background bg-no-repeat bg-contain bg-center w-full h-[100vh] flex flex-col justify-start items-center'
+      className='skillsSection bg-[url("/iconsBigBG.png")]  bg-no-repeat bg-contain bg-center w-full h-[100vh] flex flex-col justify-start items-center'
     >
       <div className='border-[3px] pb-40 border-[var(--primary-gray)]'></div>
 

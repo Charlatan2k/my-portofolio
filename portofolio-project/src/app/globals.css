@@ -24,6 +24,7 @@ body {
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; /* For macOS */
+  font-smooth: always; /* Standard property, but not widely supported */
 }
 
 body,
@@ -45,28 +46,6 @@ span {
   }
 }
 
-/* Custom background class */
-.bg-icons-background {
-  background-image: url('/iconsBigBG.png');
-}
-
-.bg-project1 {
-  background-image: url('/Bugatti-project.png');
-}
-
-.project-hirun {
-  background-image: url('/hirun-thumbnail.jpg');
-}
-
-.project-hirun-modal {
-  background-image: url('/cut-hirun-thumbnail.png');
-}
-
-.project-bugatti-modal {
-  background-image: url('/bugatti-project.png');
-}
-
-/* Keyframe animation for fade-out */
 @keyframes fadeOut {
   0% {
     opacity: 1;
@@ -74,6 +53,12 @@ span {
   100% {
     opacity: 0;
   }
+}
+
+/* Image bg */
+
+.bg-bugatti-project {
+  background-image: url('/Bugatti-project.png');
 }
 
 /* Keyframe animation for fade-in */
